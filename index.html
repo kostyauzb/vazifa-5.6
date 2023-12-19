@@ -1,0 +1,22 @@
+!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dictionary Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>So'zlarni Tarjima Qil !</h1>
+      <hr>
+      <p id="word"></p>
+      <input type="text" id="input" required placeholder="Tarjimani kiriting" />
+      <button onclick="checkTranslation()">Tekshirish</button>
+      <p id="result"></p>
+      <button onclick="getRandomWord()">Yangi so'z jiqarish</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
